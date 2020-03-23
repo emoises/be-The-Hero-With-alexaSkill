@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascriot Modulo 02 - aula 01</title>
+    </head>
+    <body>
+        <div id="app">
+            <button onclick="mostraAlerta()">Me pressione</button>
+            <button onmouseover="mostraAlerta2()">Passe o mouse</button>
+            <input onkeypress="mostraAlerta3()" />
+        </div>
+        <script>
+            function mostraAlerta() {
+                alert('Botão foi clicado');
+            }
+            function mostraAlerta2() {
+                alert('Você passou o mouse pelo botão');
+            }
+            function mostraAlerta3() {
+                alert('Você digitou dentro da caixa de texto');
+            }
+        </script>
+    </body>
+</html>
